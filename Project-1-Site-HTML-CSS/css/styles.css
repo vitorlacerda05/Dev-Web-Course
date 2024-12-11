@@ -1,0 +1,154 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #2E94CC;
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    line-height: 24px; /* 100% */
+}
+
+#top-section {
+    margin: 64px 0;
+}
+
+.top-author {
+    color: #6C6C6C;
+    font-size: 12px;
+    line-height: 18px; /* 150% */
+}
+
+.top-share, 
+.footer-title {
+    font-size: 12px;
+    line-height: 22px; /* 183.333% */
+}
+
+.top-share {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.footer-title {
+    padding-bottom: 12px;
+}
+
+.share-icon {
+    vertical-align: middle;
+}
+
+.top-title {
+    font-size: 52px;
+    line-height: 58px; /* 111.538% */
+    letter-spacing: 0.78px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+
+article {
+    max-width: 850px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+#hero-img img {
+    max-width: 100%;
+}
+
+#section-paragraph {
+    max-width: 650px;
+    margin: auto;
+}
+
+article p {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+
+article p:last-of-type{
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+
+article p:first-of-type {
+    margin-top: 64px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+
+.label-subtitle {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 24px; /* 100% */
+}
+
+a {
+    color: #2E94CC;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+ol {
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    margin-bottom: 24px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin-bottom: 24px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    max-width: 650px;
+    margin: 48px auto 72px;
+    background-color: #F1F1F1;
+    padding: 24px 24px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    padding-bottom: 12px;
+}
+
+footer ul li:last-of-type{
+    padding-bottom: 0;
+}
